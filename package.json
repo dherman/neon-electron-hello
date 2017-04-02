@@ -1,0 +1,28 @@
+{
+  "name": "neon-electron",
+  "version": "0.1.0",
+  "description": "an electron hello world with neon",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-build-env neon build neon-hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dherman/neon-electron.git"
+  },
+  "author": "Dave Herman <dherman@mozilla.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dherman/neon-electron/issues"
+  },
+  "homepage": "https://github.com/dherman/neon-electron#readme",
+  "devDependencies": {
+    "electron": "1.6.2"
+  },
+  "dependencies": {
+    "electron-build-env": "^0.1.0",
+    "neon-cli": "^0.1.14",
+    "neon-hello": "^0.1.0"
+  }
+}
