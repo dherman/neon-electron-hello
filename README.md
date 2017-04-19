@@ -2,7 +2,7 @@
 
 ## Temporary Extra Setup
 
-Until https://github.com/neon-bindings/neon-cli/pull/52#issuecomment-295329377 lands, you have to do a few initial setup steps before running `npm install`:
+Until [neon-cli#52](https://github.com/neon-bindings/neon-cli/pull/52#issuecomment-295329377) lands, you have to do a few initial setup steps before running `npm install`:
 
 ```
 $ npm install 'neon-bindings/neon-cli#pull/52/head'
