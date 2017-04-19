@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-build-env neon build neon-hello"
+    "build": "electron-build-env neon build neon-hello",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
